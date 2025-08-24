@@ -11,7 +11,7 @@ function slugify(str) {
 }
 class FastDemonicScansScraper {
     constructor(options = {}) {
-        this.baseUrl = 'https://demonicscans.org/translationlist.php';
+        this.baseUrl = 'https://demonicscans.org';
         this.browser = null;
         this.context = null;
         this.userAgent = options.userAgent ||
