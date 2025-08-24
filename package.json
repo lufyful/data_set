@@ -1,0 +1,32 @@
+{
+  "name": "your-app-name",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon npx ./src/index.cjs"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "cron-job": "^1.0.3",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.1",
+    "from": "^0.1.7",
+    "got": "^14.4.7",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.17.0",
+    "morgan": "^1.10.1",
+    "node-cron": "^4.2.1",
+    "nodemon": "^3.1.10",
+    "p-limit": "^6.2.0",
+    "playwright": "^1.54.2",
+    "puppeteer": "^24.15.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "serverless-http": "^3.2.0",
+    "string-similarity": "^4.0.4"
+  }
+}
