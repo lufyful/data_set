@@ -5,7 +5,7 @@ const MangaChapter = require('../models/mangaChapter.cjs');
 const Manga = require('../models/manga.cjs');
 const { DemonicScansScraper, FastDemonicScansScraper } = require('./demonicScansScraper');
 const CONCURRENCY = Number(process.env.CONCURRENCY || 1);
-const PAGES = Number(process.env.PAGES || 10);
+const PAGES = Number(process.env.PAGES || 1);
 
 function slugify(title) {
     return title
